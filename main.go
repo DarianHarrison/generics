@@ -1,9 +1,3 @@
-# generics
- 
-In my opinion the bellow uncommented code is the most usefulness you can get out of generics with Go, also added a few comments of some shortcommings as of version ```go version go1.19.1 linux/amd64```.
-
-
-```Go
 package main
 
 import (
@@ -53,4 +47,3 @@ func main() {
     // genericA[B](messages[1]) // concrete type with inference // this will not work for switch statements as constrains only work as argument parameters
 
 }
-```
