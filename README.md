@@ -40,8 +40,8 @@ func genericA(i any) {
 
 func main() {
 
-	// The language specifications explicitly disallow using interfaces with type elements as anything other than type parameter constraints
-	messages := make([]any, 2)
+    // The language specifications explicitly disallow using interfaces with type elements as anything other than type parameter constraints
+    messages := make([]any, 2)
     messages[0] = A{1}
     messages[1] = B{2}
 
