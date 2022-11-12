@@ -1,6 +1,6 @@
 # generics
  
-In my opinion the bellow uncommented code is the most usefulness you can get out of generics with Go, also added a few comments of some shortcommings as of version ```go version go1.19.1 linux/amd64```.
+In my opinion the bellow uncommented code is the most usefulness you can get out of generics with Go, also added a few comments of some shortcomings as of version ```go version go1.19.1 linux/amd64```.
 
 
 ```Go
